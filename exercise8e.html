@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <link rel="stylesheet" href="./styles/exercise8e.css">
+    <title>Two text boxes</title>
+    <style>
+      p {
+        font-family: Arial;
+        font-size: 28px;
+        font-weight: 500;
+        margin-bottom: 18px;
+      }
+
+      input {
+        display: block;
+        font-family: Arial;
+        font-size: 12px;
+        padding-left: 12px;
+        padding-right: 120px;
+        padding-top: 10px;
+        padding-bottom: 10px;
+        background-color:rgb(238, 238, 238);
+        border: none;
+        border-radius: 2px;
+      }
+
+      .destination {
+        margin-top: 4px;
+        margin-bottom: 18px;
+      }
+
+   
+      .request-button,
+      .schedule-button {
+        background-color: black;
+        color: white;
+        font-family: Arial;
+        border: none;
+        padding-top: 10px;
+        padding-bottom: 10px;
+        padding-left: 16px;
+        padding-right: 16px;
+        margin-right: 10px;
+      }
+
+      .schedule-button {
+        background-color:  rgb(238, 238, 238);
+        color: black;
+      }
+    </style>
+  </head>
+  <body>
+    <p>
+      Request a ride now
+    </p>
+    <input class="location" type="text" placeholder="Enter pickup location">
+    <input class="destination" type="destination" placeholder="Enter destination">
+    <button class="request-button">
+      Request now
+    </button>
+    <button class="schedule-button">
+      Schedule for later
+    </button>    
+  </body>
+</html>

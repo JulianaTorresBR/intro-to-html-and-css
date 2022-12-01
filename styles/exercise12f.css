@@ -1,0 +1,47 @@
+div {
+  font-family: arial;
+}
+
+.header{
+  background-color: rgb(125, 97, 177);
+  display: flex;
+  flex-direction: row;
+  height: 45px;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.home-link {
+  color: rgb(216, 214, 214);
+  font-weight: bold;
+  font-size: 12px;
+  margin-left: 12px;
+}
+
+.text-box{
+  width: 370px;
+  height: 22px;
+  border: none;
+  border-radius: 20px;
+  font-size: 10px;
+  padding-left: 14px;
+  background-color: rgb(235, 233, 233);
+  font-weight: b;
+
+}
+
+.button {
+    background-color:rgb(125, 97, 177);
+    color: rgb(216, 214, 214);
+    border-color:rgb(216, 214, 214);
+    border-style: solid;
+    border-width: 1px;
+    border-radius: 2px;
+    cursor: pointer;
+    padding-top: 6px;
+    padding-bottom: 6px;
+    padding-left: 14px;
+    padding-right: 14px;
+    font-size: 12px;
+    margin-right: 8px;
+  }
